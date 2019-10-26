@@ -1,86 +1,78 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "name": "Monster1",
+    "clicked": false,
+    "image": "https://media.wired.com/photos/5934d0445321273fc0f9316a/master/w_375,c_limit/monsters_18-m22_f.jpg"
+  
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "name": "Moster2",
+    "clicked": false,
+    "image": "https://imgix.ranker.com/user_node_img/50073/1001447621/original/monster-mike-goes-back-to-his-roots-photo-u1?w=650&q=50&fm=pjpg&fit=crop&crop=faces"
+    
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "name": "Monster3",
+    "clicked": false,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41O5voUTpuL._SX466_.jpg"
+    
   },
   {
     "id": 4,
-    "name": "Dexter",
-    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "name": "Monster4",
+    "clicked": false,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41ViumsCGDL.jpg"
+    
   },
   {
     "id": 5,
-    "name": "Courage",
-    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "name": "Monster5",
+    "clicked": false,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81n8CXHDWiL._SL1500_.jpg"
   },
   {
     "id": 6,
-    "name": "Doug Funnie",
-    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "name": "Monster6",
+    "clicked": false,
+    "image": "https://media.istockphoto.com/photos/happy-cartoon-monster-picture-id154002685?k=6&m=154002685&s=612x612&w=0&h=S7GcWeOKLJi_gUWnxgeGZYDYfGQSJ7YgtMJgsXv9Uv8="
   },
   {
     "id": 7,
-    "name": "Bugs Bunny",
-    "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "name": "Monster7",
+    "clicked": false,
+    "image": "https://media.istockphoto.com/photos/halloween-monster-picture-id178640157?k=6&m=178640157&s=612x612&w=0&h=7RAlwdAVYVKM7drj9imrNAqVfeD3yJrFgHHEbJ5MDLU="
   },
   {
     "id": 8,
-    "name": "Johnny Bravo",
-    "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
+    "name": "Monster8",
+    "clicked": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_csrgqSwceKDNxBSiT6BFTHWpdLd9VatfpCt8iSIjTr1NxNvF&s"
   },
   {
     "id": 9,
-    "name": "Tommy Pickles",
-    "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
-    "occupation": "Adventurer",
-    "location": "California"
+    "name": "Monster9",
+    "clicked": false,
+    "image": "https://i1.wp.com/www.realjoyriders.com/wp-content/uploads/2017/05/CuteMonsterMain.jpg?fit=1000%2C1000"
   },
   {
     "id": 10,
-    "name": "Rocko",
-    "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
-    "occupation": "Cashier",
-    "location": "O-Town, California"
+    "name": "Monster10",
+    "clicked": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOCkwsHNALvm_E7toX3S-dxaAN1zxxDC2N_LmYUEXfQsd8uwgN&s"
   },
   {
     "id": 11,
-    "name": "Captain Planet",
-    "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
-    "occupation": "Superhero",
-    "location": "Earth"
+    "name": "Monster11",
+    "clicked": false,
+    "image": "https://previews.123rf.com/images/albertzig/albertzig1210/albertzig121000934/15732045-3d-cartoon-cute-monster.jpg"
   },
   {
     "id": 12,
-    "name": "Ickis",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "name": "Monster12",
+    "clicked": false,
+    "image": "https://vignette.wikia.nocookie.net/finalfantasy/images/5/50/Hedgehogpie-FFIX.jpg/revision/latest?cb=20111127215513"
   }
 ]

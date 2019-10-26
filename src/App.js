@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import Nav from "./components/Nav";
+import Nav from "./components/Navbar/Nav.js";
 import friends from "./friends.json";
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
+  // Setting this.state.friends tteo the friends json array
   state = {
     friends
   };
@@ -24,6 +24,7 @@ class App extends Component {
       <Wrapper>
         <Nav />
         <Title>Clicky Game !</Title>
+        <h2>Click on any image to earn points, but dont click on one image more than twice!</h2>
         {this.state.friends.map(friend => (
           <FriendCard
             removeFriend={this.removeFriend}
