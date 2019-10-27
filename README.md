@@ -5,3 +5,6 @@
 A memory game with React
 
 Click on a monster image to earn points, but don't click on any more than once!
+
+Github: https://chuckthefrenchie.github.io/ClickyGame/
+Heroku: https://clickygame-monsters.herokuapp.com/
