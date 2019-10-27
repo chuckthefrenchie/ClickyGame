@@ -3,10 +3,10 @@ import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import images from "./images.json";
-// import "./App.css";
+
 
 class App extends Component {
-  // Setting this.state.cards to the cards json array
+
   state = {
     images,
     score: 0,
@@ -22,7 +22,7 @@ class App extends Component {
     this.state.images.forEach(card => {
       card.count = 0;
     });
-    alert(`Game Over :( \nscore: ${this.state.score}`);
+    alert(`Oh nooo you already clicked on this one! Game Over! \nscore: ${this.state.score}`);
     this.setState({score: 0});
     return true;
   }
@@ -43,7 +43,7 @@ class App extends Component {
       }
     });
   }
-  // Map over this.state.cards and render a cardCard component for each card object
+ 
   render() {
     return (
       <Wrapper>
