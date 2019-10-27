@@ -1,39 +1,59 @@
 import React, { Component } from "react";
-import FriendCard from "./components/FriendCard";
+import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
-import Nav from "./components/Navbar/Nav.js";
-import friends from "./friends.json";
+import Header from "./components/Header";
+import images from "./images.json";
+// import "./App.css";
 
 class App extends Component {
-  // Setting this.state.friends tteo the friends json array
+  // Setting this.state.cards to the cards json array
   state = {
-    friends
+    images,
+    score: 0,
+    highscore: 0
   };
 
-  removeFriend = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const friends = this.state.friends.filter(friend => friend.id !== id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ friends });
-  };
+  gameOver = () => {
+    if (this.state.score > this.state.highscore) {
+      this.setState({highscore: this.state.score}, function() {
+        console.log(this.state.highscore);
+      });
+    }
+    this.state.images.forEach(card => {
+      card.count = 0;
+    });
+    alert(`Game Over :( \nscore: ${this.state.score}`);
+    this.setState({score: 0});
+    return true;
+  }
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+  clickCount = id => {
+    this.state.images.find((o, i) => {
+      if (o.id === id) {
+        if(images[i].count === 0){
+          images[i].count = images[i].count + 1;
+          this.setState({score : this.state.score + 1}, function(){
+            console.log(this.state.score);
+          });
+          this.state.images.sort(() => Math.random() - 0.5)
+          return true; 
+        } else {
+          this.gameOver();
+        }
+      }
+    });
+  }
+  // Map over this.state.cards and render a cardCard component for each card object
   render() {
     return (
       <Wrapper>
-        <Nav />
-        <Title>Clicky Game !</Title>
-        <h2>Click on any image to earn points, but dont click on one image more than twice!</h2>
-        {this.state.friends.map(friend => (
-          <FriendCard
-            removeFriend={this.removeFriend}
-            id={friend.id}
-            key={friend.id}
-            name={friend.name}
-            image={friend.image}
-            occupation={friend.occupation}
-            location={friend.location}
+        <Header score={this.state.score} highscore={this.state.highscore}>Clicky Game</Header>
+        {this.state.images.map(image => (
+          <Card
+            clickCount={this.clickCount}
+            id={image.id}
+            key={image.id}
+            image={image.image}
           />
         ))}
       </Wrapper>
